@@ -1,0 +1,21 @@
+Day 1  Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
+
+
+#include<stdio.h>
+int main()
+{int a,b,c,d,p,q;
+printf("enter the first number a\n");
+scanf("%d",&a);
+printf("enter the second number b\n");
+scanf("%d",&b);
+c=a+b;
+q=a/b;
+p=a*b;
+d=a-b;
+printf("the sum is %d\n",c);
+printf("the quotient is %d\n",q);
+printf("the product is %d\n",p);
+printf("the difference is %d\n",d);
+
+
+}
