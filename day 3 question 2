@@ -1,0 +1,17 @@
+Q6: Write a program to swap two numbers using a third variable.
+
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("write the first number\n",a);
+scanf("%d",&a);
+printf("write the second number\n",b);
+scanf("%d",&b);
+c=a+b;
+b=c-b;
+a=a+a;
+printf("%d and %d",a,b);
+
+
+}
