@@ -1,0 +1,13 @@
+Q5: Write a program to convert temperature from Celsius to Fahrenheit.
+
+
+#include<stdio.h>
+int main()
+{
+int c,f,a;
+printf("write the temp in celcius",c);
+scanf("%d",&c);
+a=c*9/5;
+f=a+32;
+printf("the temp in Fahrenheit is %d",f);
+}
