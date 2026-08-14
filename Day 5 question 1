@@ -1,0 +1,17 @@
+Q9: Write a program to calculate simple and compound interest for given principal, rate, and time.
+
+#include<stdio.h>
+int main()
+{
+int p,i,t,r,interest;
+printf("enter the principle\n",p);
+scanf("%d",&p);
+printf("enter the time\n",t);
+scanf("%d",&t);
+printf("enter the rate\n",r);
+scanf("%d",&r);
+i=p*r*t;
+interest=i/100;
+printf("the simple interst is %d",interest);
+
+}
