@@ -1,0 +1,16 @@
+Q10: Write a program to input time in seconds and convert it to hours:minutes:seconds format.
+
+#include<stdio.h>
+int main()
+{
+	int a,b,min,h,sec;
+	printf("write time in seconds\n",a);
+	scanf("%d",&a);
+	h=a/3600;
+	b=a%3600;
+	min=b/60;
+	sec=b%60;
+	
+	
+	printf(" hour=%d and min=%d and sec=%d",h,min,sec);
+}
