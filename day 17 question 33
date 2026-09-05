@@ -1,0 +1,28 @@
+Q33: Write a program to check if a number is an Armstrong number.
+
+#include<stdio.h>
+int main()
+{
+	int digit,n;
+	printf("enter the number:\n");
+	scanf("%d",&n);
+	int original=n;
+	int sum=0;
+	     
+	          
+	    while(n>0)
+	    {
+				digit=n%10;
+	    	sum=sum+digit*digit*digit;
+			n=n/10;}
+	    
+		
+			
+		
+		if(sum==original)
+	    	{ printf("%d is armstrong number\n",sum);
+			}
+			else
+			{printf(" %d not an armstrong number\n",sum);
+			}
+}
